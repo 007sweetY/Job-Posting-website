@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #b9abab;
+        }
+
+        .active {
+            background-color: #7e968d;
+        }
+
+
+        * {
+            box-sizing: border-box;
+
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 200px;
+            font-size: 1.2em;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        
+    </style>
+
+
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Intenship</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#About US">About Us</a></li>
+        <li style="float:right"><a class="active" href="#about">Job Posting For Abhyaz</a></li>
+    </ul>
+
+
+    <form action="">
+        <!-- <h2>Job Posting For Abhyaz</h2> -->
+        <div class="row">
+            <div class="column"><br>
+                <h3 class="job-title">Software Engineer</h3>
+                <div class="details">
+                    Responsible for designing, developing and<br> maintaining software systems and <application
+                        class="br"></application>
+                    <a href="#" class="details-btn"><br><br>More Details</a><br>
+                    <span class="open-pos"><br>14 Open postions</span><br>
+
+                </div>
+
+            </div>
+            <br>
+
+
+            <div class="column">
+                <h3 class="job-title">Content Writer</h3>
+                <div class="details">
+                    Responsible for Writing, editing, blogging, <br>and updating content for everything from brochures
+                    and marketing
+                    <a href="#" class="details-btn"><br>More Details</a><br>
+                    <span class="open-pos"><br>26 Open postions</span><br>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="column">
+                <h3 class="job-title">Graphic Designer</h3>
+                <div class="details">
+                    Responsible for designing, developing and<br> creativity.
+                    <a href="#" class="details-btn"><br><br>More Details</a><br>
+                    <span class="open-pos"><br>13 Open postions</span><br>
+
+                </div>
+
+            </div>
+
+
+            <br>
+            <div class="column">
+                <h3 class="job-title">Quality Engineer</h3>
+                <div class="details">
+                    test processes, monitor qualitystandards,<br>create documentation and devise quality tests.
+                    <a href="#" class="details-btn"><br>More Details</a><br>
+                    <span class="open-pos"><br>21 Open postions</span>
+
+                </div>
+
+            </div>
+
+
+            <br>
+
+            <div class="column">
+                <h3 class="job-title">HR Executive</h3>
+                <div class="details">
+                    managers plan, coordinate, and direct <br>the administrative functions of an organization.
+                    <a href="#" class="details-btn"><br>More Details</a><br>
+                    <span class="open-pos"><br>30 Open postions</span>
+
+                </div>
+
+            </div>
+
+            <br>
+
+
+            <div class="column">
+                <h3 class="job-title">Data Analyst</h3>
+                <div class="details">
+                    Responsible for reviews data to identify key and <br>ways the data can be used to solve problems
+                    <a href="#" class="details-btn"><br>More Details</a><br>
+                    <span class="open-pos"><br>44 Open postions</span>
+
+                </div>
+
+            </div>
+
+
+            <br>
+
+            <div class="column">
+                <h3 class="job-title">Training Executive Intern</h3>
+                <div class="details">
+                    Supporting the day-to-day tasks and requestsbr <br> coming to the training team
+                    <a href="#" class="details-btn"><br>More Details</a><br>
+                    <span class="open-pos"><br>40 Open postions</span>
+
+                </div>
+
+            </div>
+
+
+
+            <br>
+
+            <div class="column">
+                <h3 class="job-title">Robotics Engineer</h3>
+                <div class="details">
+                    working with robots to writing code <br> that runs our system.
+                    <a href="#" class="details-btn"><br>More Details</a><br>
+                    <span class="open-pos"><br>30 Open postions</span>
+
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="column">
+                <h3 class="job-title">Customer Service and Support</h3>
+                <div class="details">
+                    drafting or revising marketing communications, <br>answering inbound phone calls from customers,
+                    <a href="#" class="details-btn"><br>More Details</a><br>
+                    <span class="open-pos"><br>11 Open postions</span>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </form>
+
+</body>
+
+</html>
